@@ -1,0 +1,15 @@
+{
+  "name": "huddle-landing-page-with-single-introductory-section-master",
+  "version": "1.0.0",
+  "description": "Frontend Mentor Huddle Landing Page with Single Introductory Section Master Dev Challenge",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "frontend",
+    "mentor"
+  ],
+  "author": "@dpress13",
+  "license": "ISC"
+}
