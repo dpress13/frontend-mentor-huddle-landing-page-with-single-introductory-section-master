@@ -6,10 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpress13/frontend-mentor-huddle-landing-page-with-single-introductory-section-master.git"
+  },
   "keywords": [
-    "frontend",
-    "mentor"
+    "frontend-mentor-dev-practice"
   ],
   "author": "@dpress13",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.1.0"
+  }
 }

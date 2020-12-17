@@ -1,10 +1,24 @@
-// Font & Font Weight
+// Fonts & Font Weights
 
-$font-primary: ;
+// Heading Font
+$heading-font: 'Poppins', sans-serif;
+
+// Body Font
+$body-font: 'Open Sans', sans-serif;
+
+// Font Weights
+$font-weight-light: 400;
+$font-weight-medium: 600;
 
 // Color Variables
 
-// Mains / Purples
+// Main - Violet
+
+$primary-color: hsl(257, 40%, 49%);
+
+// Active State - Soft Magenta
+
+$active-state-color: hsl(300, 69%, 71%);
 
 // Neutrals
 
