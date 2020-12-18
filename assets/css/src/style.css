@@ -17,7 +17,7 @@ h1 {
 h2 {
   color: white;
   font-family: "Open Sans", sans-serif;
-  font-size: .9375rem;
+  font-size: 1.04rem;
   font-weight: 400;
   line-height: 1.6rem;
   margin: 0;
@@ -27,6 +27,7 @@ button {
   border: none;
   border-radius: 1rem;
   color: #674baf;
+  filter: drop-shadow(4px 4px 1px black);
   font-family: "Open Sans", sans-serif;
   font-size: .75rem;
   padding: .6rem;
@@ -64,6 +65,7 @@ ul {
 .copy-cta-container {
   text-align: center;
   margin-bottom: 3rem;
+  padding: 0;
 }
 
 .main-headline {
@@ -71,7 +73,7 @@ ul {
 }
 
 .body-copy {
-  margin-bottom: 1.75rem;
+  margin-bottom: 3rem;
 }
 
 a .fab, div .fab, i .fab {
