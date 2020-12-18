@@ -10,7 +10,8 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
-  line-height: 2.5rem;
+  line-height: 2.4rem;
+  margin: 0;
 }
 
 h2 {
@@ -18,7 +19,8 @@ h2 {
   font-family: "Open Sans", sans-serif;
   font-size: .9375rem;
   font-weight: 400;
-  line-height: 1.5rem;
+  line-height: 1.6rem;
+  margin: 0;
 }
 
 button {
@@ -27,8 +29,13 @@ button {
   color: #674baf;
   font-family: "Open Sans", sans-serif;
   font-size: .75rem;
-  padding: .5rem;
+  padding: .6rem;
   width: 70%;
+}
+
+button:hover {
+  background-color: #e882e8;
+  color: white;
 }
 
 ul {
@@ -59,29 +66,48 @@ ul {
   margin-bottom: 3rem;
 }
 
+.main-headline {
+  margin: 0 0 1rem;
+}
+
 .body-copy {
   margin-bottom: 1.75rem;
 }
 
-.social-icon-container {
-  justify-content: center;
+a .fab, div .fab, i .fab {
   display: flex;
+  line-height: 1.75;
+  text-decoration: none;
+}
+
+.social-icons-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 1.5rem;
 }
 
 .social-icon {
-  color: white;
-  border: 1px solid white;
+  border: 1px solid;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  vertical-align: middle;
+  color: white;
+  display: flex;
+  height: 1.875rem;
+  justify-content: center;
+  margin: 0 .4rem;
+  width: 1.875rem;
+}
+
+.social-icon:hover {
+  color: #e882e8;
 }
 
 .attribution {
+  color: black;
   font-size: 11px;
   text-align: center;
 }
 
 .attribution a {
-  color: #3e52a3;
+  color: black;
+  text-decoration: underline;
 }

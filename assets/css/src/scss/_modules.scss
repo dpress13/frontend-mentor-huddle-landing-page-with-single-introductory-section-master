@@ -12,7 +12,8 @@ h1 {
   font-family: $heading-font;
   font-size: 1.5rem;
   font-weight: $font-weight-medium;
-  line-height: 2.5rem;
+  line-height: 2.4rem;
+  margin: 0;
 }
 
 h2 {
@@ -20,17 +21,23 @@ h2 {
   font-family: $body-font;
   font-size: .9375rem;
   font-weight: $font-weight-light;
-  line-height: 1.5rem;
+  line-height: 1.6rem;
+  margin:0;
 }
 
 button {
-border:none;
-border-radius: 1rem;
-color: $primary-color;
-font-family: $body-font;
-font-size: .75rem;
-padding: .5rem;
-width: 70%;
+  border:none;
+  border-radius: 1rem;
+  color: $primary-color;
+  font-family: $body-font;
+  font-size: .75rem;
+  padding: .6rem;
+  width: 70%;
+}
+
+button:hover {
+  background-color: $active-state-color;
+  color: white;
 }
 
 ul {
@@ -69,7 +76,7 @@ ul {
 }
 
 .main-headline {
-
+  margin: 0 0 1rem;
 }
 
 .body-copy {
@@ -86,26 +93,47 @@ ul {
 
 }
 
-.social-icon-container {
-  justify-content: center;
+
+// Social Icons
+
+a, div, i {
+  .fab {
+    display: flex;
+    line-height: 1.75;
+    text-decoration: none;
+  }
+}
+
+.social-icons-container {
   display: flex;
+  justify-content: center;
+  margin: 0 0 1.5rem;
 }
 
-.social-icon {
-  color: white;
-  border: 1px solid white;
+.social-icon {   // formerly social icon border
+  border: 1px solid;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  vertical-align: middle;
+  color: white;
+  display: flex;
+  height: 1.875rem;
+  justify-content: center;
+  margin: 0 .4rem;
+  width: 1.875rem;
 }
 
-// Frontend Mentor attribution
+.social-icon:hover {
+  color: $active-state-color;
+}
+
+// Frontend Mentor Attribution
+
 .attribution {
+  color: black;
   font-size: 11px;
   text-align: center;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: black;
+  text-decoration: underline;
 }
