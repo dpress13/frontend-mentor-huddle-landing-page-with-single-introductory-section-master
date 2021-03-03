@@ -54,7 +54,7 @@ ul {
 }
 
 .logo {
-  width: 40%;
+  width: 7.75rem;
 }
 
 // Main Image
@@ -88,11 +88,20 @@ ul {
 
 // Button CTA
 
+button:focus {
+  outline: 0;
+}
+
 .register-cta-container {
 
 }
 
 .register-cta {
+  border-radius: 1.5625rem;
+  filter: drop-shadow(.5px .5px 2px black);
+  font-size: .85rem;
+  height: 2.75rem;
+  width: 13rem;
 
 }
 
@@ -139,4 +148,14 @@ a, div, i {
 .attribution a {
   color: black;
   text-decoration: underline;
+}
+
+@media (min-width: 376px) {
+  body {
+    background-image: url("../../images/bg-desktop.svg");
+    margin: 2rem 5rem;
+  }
+  .logo {
+    width: 11rem;
+  }
 }

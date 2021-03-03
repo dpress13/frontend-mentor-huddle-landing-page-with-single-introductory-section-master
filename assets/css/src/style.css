@@ -50,7 +50,7 @@ ul {
 }
 
 .logo {
-  width: 40%;
+  width: 7.75rem;
 }
 
 .main-image-container {
@@ -74,6 +74,18 @@ ul {
 
 .body-copy {
   margin-bottom: 3rem;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.register-cta {
+  border-radius: 1.5625rem;
+  filter: drop-shadow(0.5px 0.5px 2px black);
+  font-size: .85rem;
+  height: 2.75rem;
+  width: 13rem;
 }
 
 a .fab, div .fab, i .fab {
@@ -112,4 +124,14 @@ a .fab, div .fab, i .fab {
 .attribution a {
   color: black;
   text-decoration: underline;
+}
+
+@media (min-width: 376px) {
+  body {
+    background-image: url("../../images/bg-desktop.svg");
+    margin: 2rem 5rem;
+  }
+  .logo {
+    width: 11rem;
+  }
 }
